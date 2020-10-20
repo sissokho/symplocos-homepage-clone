@@ -45,3 +45,47 @@
   --font-size-text: 1.5rem;
   --font-family: "Lato", sans-serif;
 }
+
+/*==================================*\
+  1.0 - Base Styles
+\*==================================*/
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: var(--font-family);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2 {
+  font-size: var(--font-size-h1);
+}
+
+h3 {
+  font-size: var(--font-size-h3);
+}
+
+h4 {
+  font-size: var(--font-size-h4);
+}
+
+address {
+  font-size: var(--font-size-address);
+}
+
+p {
+  font-size: var(--font-size-text);
+}
+
+input {
+  font-size: var(--font-size-text);
+}
+
+a {
+  text-decoration: none;
+}
