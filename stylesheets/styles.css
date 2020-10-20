@@ -27,3 +27,21 @@
 
 /* === 1.1 - Normalize.css ===*/
 @import "normalize.css";
+
+/* === 1.2 - Custom properties ===*/
+:root {
+  --color-green: #6b9c42;
+  --color-blue: #065c7e;
+  --color-cyan: #009b9e;
+  --color-light-grey: #f2f2f2;
+  --color-grey: #777;
+  --color-dark-grey: #666;
+  --font-size-button: 2.1rem;
+  --font-size-address: 1.8rem;
+  --font-size-h1: 4.2rem;
+  --font-size-h2: 4.2rem;
+  --font-size-h3: 3.6rem;
+  --font-size-h4: 2.4rem;
+  --font-size-text: 1.5rem;
+  --font-family: "Lato", sans-serif;
+}
