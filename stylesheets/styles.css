@@ -12,12 +12,12 @@
  *    4.1 - Header
  *    4.2 - Main
  *      4.2.1 - Hero Section
- *      4.1.2 - Advantages Section
- *      4.1.3 - Premium Section
- *      4.1.4 - Search Section
- *      4.1.5 - Guides Section
- *      4.1.6 - Research Section
- *      4.1.7 - Brands Section
+ *      4.2.2 - Advantages Section
+ *      4.2.3 - Premium Section
+ *      4.2.4 - Search Section
+ *      4.2.5 - Guides Section
+ *      4.2.6 - Research Section
+ *      4.2.7 - Brands Section
  *    4.3 - Footer
  */
 
@@ -47,7 +47,7 @@
 }
 
 /*==================================*\
-  1.0 - Base Styles
+  2.0 - Base Styles
 \*==================================*/
 html {
   box-sizing: border-box;
