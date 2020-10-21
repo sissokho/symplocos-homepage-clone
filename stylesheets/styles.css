@@ -153,3 +153,41 @@ a {
 .button--green:focus {
   background-color: var(--color-dark-green);
 }
+
+/*==================================*\
+  4.0 - Layout
+\*==================================*/
+
+/* === 4.1 - Header ===*/
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 2.5em 15%;
+}
+
+.logo {
+  height: auto;
+  display: block;
+  margin-bottom: 1.5rem;
+  flex-basis: 100%;
+}
+
+address > * {
+  margin-bottom: 0.5em;
+}
+
+@media (min-width: 600px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logo {
+    flex-basis: min(50%, 32.8rem);
+  }
+
+  address {
+    text-align: right;
+  }
+}
