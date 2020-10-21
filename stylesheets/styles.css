@@ -30,7 +30,8 @@
 
 /* === 1.2 - Custom properties ===*/
 :root {
-  --color-green: #6b9c42;
+  --color-dark-green: #6b9c42;
+  --color-light-green: #91c261;
   --color-blue: #065c7e;
   --color-cyan: #009b9e;
   --color-light-grey: #f2f2f2;
@@ -88,4 +89,67 @@ input {
 
 a {
   text-decoration: none;
+}
+
+/*==================================*\
+  3.0 - Components
+\*==================================*/
+
+/* === 3.1 - Link ===*/
+
+.link {
+  font-size: var(--font-size-text);
+}
+
+.link--white {
+  color: #fff;
+}
+
+.link--white:hover,
+.link:focus {
+  color: var(--color-light-grey);
+}
+
+.link--blue {
+  color: var(--color-blue);
+}
+
+.link--blue:hover,
+.link--blue:focus {
+  color: var(--color-cyan);
+}
+
+/* === 3.2 - Button ===*/
+.button {
+  padding: 0.7em 1.7em;
+  outline: none;
+  border-radius: 4px;
+  font-size: var(--font-size-button);
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.button--white {
+  background-color: #fff;
+  color: var(--color-light-green);
+}
+
+.button--white:hover,
+.button--white:active {
+  color: var(--color-dark-green);
+}
+
+.button--white:focus {
+  background-color: var(--color-dark-green);
+  color: #fff;
+}
+
+.button--green {
+  background-color: var(--color-light-green);
+  color: #fff;
+}
+
+.button--green:hover,
+.button--green:active,
+.button--green:focus {
+  background-color: var(--color-dark-green);
 }
