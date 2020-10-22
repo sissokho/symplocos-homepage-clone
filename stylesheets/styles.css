@@ -99,6 +99,7 @@ a {
 
 .link {
   font-size: var(--font-size-text);
+  font-weight: bold;
 }
 
 .link--white {
