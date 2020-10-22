@@ -191,3 +191,8 @@ address > * {
     text-align: right;
   }
 }
+
+/* === 4.2 - Main ===*/
+section {
+  padding: 5em 15%;
+}
