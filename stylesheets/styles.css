@@ -381,3 +381,55 @@ section {
     flex-basis: 25%;
   }
 }
+
+/* === 4.2.5 - Guides Section ===*/
+.guides__item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.guides__item:nth-of-type(1) {
+  margin-bottom: 10em;
+}
+
+.guides__title {
+  font-size: calc(var(--font-size-h3) - 0.4rem);
+  font-weight: normal;
+  text-align: center;
+}
+
+.guides__description {
+  margin-bottom: 2.5em;
+  text-align: justify;
+}
+
+@media (min-width: 600px) {
+  .guides__item {
+    flex-direction: row;
+  }
+
+  .guides__image {
+    margin-right: 3em;
+    flex-basis: 20vw;
+    align-self: flex-start;
+  }
+
+  .guides__image--right {
+    margin-right: 0;
+    margin-left: 3em;
+    order: 1;
+  }
+
+  .guides__content {
+    flex: 1;
+    text-align: left;
+  }
+
+  .guides__title {
+    margin-top: 0.3em;
+    margin-bottom: 0.7em;
+    font-size: var(--font-size-h3);
+    text-align: left;
+  }
+}
