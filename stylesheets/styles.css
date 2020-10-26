@@ -433,3 +433,50 @@ section {
     text-align: left;
   }
 }
+
+/* === 4.2.6 - Research Section ===*/
+.research {
+  text-align: center;
+}
+
+.research h2 {
+  font-size: calc(var(--font-size-h2) - 0.7rem);
+}
+
+.research .button {
+  display: inline-block;
+}
+
+.research__intro {
+  margin-top: 2em;
+  margin-bottom: 4em;
+  font-weight: bold;
+}
+
+.research__topics {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4em;
+}
+
+.research__title {
+  font-weight: normal;
+}
+
+.research__abstract {
+  margin-bottom: 2em;
+}
+
+@media (min-width: 700px) {
+  .research h2 {
+    font-size: var(--font-size-h2);
+  }
+
+  .research__topics {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .research__abstract {
+    text-align: justify;
+  }
+}
