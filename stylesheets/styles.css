@@ -222,6 +222,7 @@ section {
 
 /* === 4.2.2 - Advantages Section ===*/
 .advantages {
+  background-image: url("../images/advantages@2x.webp");
   text-align: center;
 }
 
@@ -437,6 +438,7 @@ section {
 
 /* === 4.2.6 - Research Section ===*/
 .research {
+  background-image: url("../images/advantages@2x.webp");
   text-align: center;
 }
 
