@@ -484,6 +484,10 @@ section {
 
 /* === 4.2.7 - Brands Section ===*/
 .brands {
+  text-align: center;
+}
+
+.brands__list {
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
@@ -495,13 +499,13 @@ section {
 }
 
 @media (min-width: 400px) {
-  .brands {
+  .brands__list {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 800px) {
-  .brands {
+  .brands__list {
     grid-template-columns: repeat(3, 1fr);
   }
 }
