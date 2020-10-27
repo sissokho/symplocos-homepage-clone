@@ -44,6 +44,7 @@
   --font-size-h3: 3.6rem;
   --font-size-h4: 2.4rem;
   --font-size-text: 1.5rem;
+  --font-size-footer: 1.2rem;
   --font-family: "Lato", sans-serif;
 }
 
@@ -503,4 +504,15 @@ section {
   .brands {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+
+/* === 4.3 - Footer ===*/
+footer {
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-blue);
+  font-size: var(--font-size-footer);
+  color: #fff;
 }
