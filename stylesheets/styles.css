@@ -46,6 +46,7 @@
   --font-size-text: 1.5rem;
   --font-size-footer: 1.2rem;
   --font-family: "Lato", sans-serif;
+  --line-height: 1.5;
 }
 
 /*==================================*\
@@ -222,6 +223,7 @@ section {
 
 /* === 4.2.2 - Advantages Section ===*/
 .advantages {
+  background-image: url("../images/advantages@2x.webp");
   text-align: center;
 }
 
@@ -238,6 +240,7 @@ section {
 }
 
 .advantages__description {
+  line-height: var(--line-height);
   text-align: center;
 }
 
@@ -402,6 +405,7 @@ section {
 
 .guides__description {
   margin-bottom: 2.5em;
+  line-height: var(--line-height);
   text-align: justify;
 }
 
@@ -437,6 +441,7 @@ section {
 
 /* === 4.2.6 - Research Section ===*/
 .research {
+  background-image: url("../images/advantages@2x.webp");
   text-align: center;
 }
 
@@ -452,6 +457,7 @@ section {
   margin-top: 2em;
   margin-bottom: 4em;
   font-weight: bold;
+  line-height: var(--line-height);
 }
 
 .research__topics {
@@ -466,6 +472,7 @@ section {
 
 .research__abstract {
   margin-bottom: 2em;
+  line-height: var(--line-height);
 }
 
 @media (min-width: 700px) {
